@@ -12,7 +12,7 @@ function start(){
     document.querySelector("#guesses").style.display = "block";
 
     submitGuess();
-}
+} 
 
 function submitGuess(tooHighBool) {
     let guess = generateGuess();
