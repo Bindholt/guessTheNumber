@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NUMBERS!!!</title>
+    <script src="guessTheNumber.js"></script>
+</head>
+<body>
+    <h1>Guess The Number</h1>
+    <div>Think of a number between 1 and 100, and I'LL TRY TO GUESS IT!!</div><br>
+    <div>Click <button id="start-btn"> here </button> when you are ready.</div>
+
+    <ol id="guesses" style="display:none">
+        <li id="latest-guess">I'm guessing <span id="guess"></span> - <span id="btn-span">Is that <button id="low-btn"> too low </button> <button id="high-btn"> too high </button> <button id="correct-btn"> correct! </button></span><span id="success-span" style="display: none;">That is correct!</span></li>
+    </ol>
+
+    <div id="success" style="display: none;">I finally guessed it!</div>
+</body>
+</html>
