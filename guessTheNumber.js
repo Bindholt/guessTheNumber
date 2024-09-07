@@ -5,10 +5,6 @@ let min = 0;
 let guesses = 0;
 let guess;
 
-const guessAmount = {
-
-}
-
 
 function main() {
     document.querySelector("#start-btn").addEventListener("click", start);
